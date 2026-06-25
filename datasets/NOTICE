@@ -1,0 +1,22 @@
+SERVE-SC datasets — third-party attribution
+===========================================
+
+This package redistributes the following third-party dataset:
+
+  SmartBugs Curated
+    Source : https://github.com/smartbugs/smartbugs-curated
+    License: Apache License 2.0 (see smartbugs-curated/LICENSE)
+    Files  : smartbugs-curated/  (143 Solidity contracts, annotations, README)
+
+  The dataset is redistributed unmodified under the terms of Apache-2.0, with
+  its LICENSE and original metadata preserved. The per-contract source URLs are
+  retained in smartbugs-curated/vulnerabilities.json and in each contract header.
+
+Not redistributed (fetched from source by the user):
+
+  SolidiFI-benchmark
+    Source : https://github.com/DependableSystemsLab/SolidiFI-benchmark
+    License: verify at source before redistributing.
+
+Code in scripts/ is original to this package and provided under the MIT License
+(see the artifact's top-level LICENSE).

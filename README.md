@@ -31,7 +31,7 @@ repository is hardcoded to any reported value — the pipeline is data-agnostic:
 | Synthetic demo data (default) | demonstration metrics; pipeline/test smoke check |
 | Your real datasets (see `DATA_SCHEMA.md`) | the values you report in the paper |
 
-The synthetic generator plants structure on purpose, so the demo shows the
+The data generator plants structure on purpose, so the demo shows the
 machinery working: the detector learns above chance, and the risk model recovers
 the **positive interaction terms** `u·e` and `u·χ` (the paper's central scoring
 claim) with bootstrap intervals that exclude zero, while the single-term `u`

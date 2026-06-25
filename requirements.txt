@@ -1,0 +1,12 @@
+# Core (required) — the demo, metrics, gate, risk model, and tests run on these.
+numpy>=1.24
+scipy>=1.10
+
+# Stage-1 HGT (optional but recommended): the heterogeneous graph transformer in
+# serve_sc/hgt.py needs PyTorch. Without it, a numpy logistic fallback is used so
+# the pipeline and tests still run. Install the build for your platform/CUDA:
+#   pip install torch
+# torch>=2.0
+
+# Testing
+pytest>=7.0

@@ -1,0 +1,101 @@
+{
+  "banner": "SYNTHETIC DEMONSTRATION RESULTS -- computed on generated data. These are NOT the paper's numbers and do not reproduce them. Supply the real datasets (see DATA_SCHEMA.md) to reproduce reported tables.",
+  "backend": "numpy-fallback",
+  "n_contracts": 400,
+  "splits": {
+    "train": 240,
+    "dev": 80,
+    "test": 80
+  },
+  "detection": {
+    "macro_F1": 0.9890290037831022,
+    "macro_AUC": 0.9998602375960866
+  },
+  "prioritisation": {
+    "HR@5": 0.0851063829787234,
+    "HR@10": 0.1702127659574468,
+    "NDCG@5": 0.8687949224876582,
+    "NDCG@10": 0.8486026589039901,
+    "Spearman": 0.457977007241736
+  },
+  "prioritisation_95CI": {
+    "HR@5": [
+      0.05878846153846155,
+      0.12195121951219512
+    ],
+    "HR@10": [
+      0.1111111111111111,
+      0.23170840787119854
+    ],
+    "NDCG@5": [
+      0.6164336326286644,
+      1.0
+    ],
+    "NDCG@10": [
+      0.5991570513948864,
+      1.0
+    ],
+    "Spearman": [
+      0.27137159684493206,
+      0.6447460136722365
+    ]
+  },
+  "risk_coefficients": [
+    {
+      "term": "intercept",
+      "median": -3.9923170033217237,
+      "lo": -6.910404882243744,
+      "hi": -1.7099356961242194,
+      "excludes_zero": true
+    },
+    {
+      "term": "u",
+      "median": 1.4745506873717273,
+      "lo": -0.5538731252867201,
+      "hi": 4.315290988736146,
+      "excludes_zero": false
+    },
+    {
+      "term": "e",
+      "median": -1.647894529875483,
+      "lo": -3.6756418929100945,
+      "hi": 0.7027527169215836,
+      "excludes_zero": false
+    },
+    {
+      "term": "chi",
+      "median": 0.7002992946491255,
+      "lo": -0.5455400780271806,
+      "hi": 2.0482055328369313,
+      "excludes_zero": false
+    },
+    {
+      "term": "q",
+      "median": 0.9046804475233898,
+      "lo": -0.1936097290986733,
+      "hi": 2.082733905618682,
+      "excludes_zero": false
+    },
+    {
+      "term": "p",
+      "median": 0.890338497174967,
+      "lo": -2.14700236793347,
+      "hi": 4.180584020772993,
+      "excludes_zero": false
+    },
+    {
+      "term": "u*e",
+      "median": 3.693785566449649,
+      "lo": 1.6139185395055249,
+      "hi": 6.352303165433108,
+      "excludes_zero": true
+    },
+    {
+      "term": "u*chi",
+      "median": 2.51022638558305,
+      "lo": 1.0167670986687685,
+      "hi": 4.348149257441812,
+      "excludes_zero": true
+    }
+  ]
+}
